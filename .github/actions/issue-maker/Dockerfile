@@ -1,8 +1,6 @@
-FROM node:slim
+FROM node
 
 COPY package*.json ./
-
-RUN npm install -g npm@7.0.7
 
 RUN npm install
 
