@@ -17,6 +17,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+      - name: hello-action
+        uses: ./.github/actions/hello-world
   
   # This workflow contains a single job called "build"
   build:
